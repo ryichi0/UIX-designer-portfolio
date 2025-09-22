@@ -33,7 +33,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border-radius: 50px;
-    width:96%;
+    width:94%;
     margin: 40px auto 0 auto;
     padding: 0 6px;
     max-width: 1224px;
@@ -276,11 +276,17 @@ body{
         }
       }
       @media (max-width:980px) {
+        .intro .vector-lg{
+          display: none;
+        }
         .extra-info{
           display: none;
         }
         .avatar{
-          height: 60%;
+          height: 68%;
+        }
+        .cta__container{
+          bottom: 100px;
         }
       }
       }
