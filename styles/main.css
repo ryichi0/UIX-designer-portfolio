@@ -1,0 +1,7 @@
+@import url('navbar.css');
+@import url('general.css');
+@import url('hero.css');
+@font-face {
+  font-family: Lufga;
+  src: url(../assets/font/lufga/LufgaMedium.ttf);
+}
